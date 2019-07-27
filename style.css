@@ -1,0 +1,490 @@
+body {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  margin: 0;
+}
+@font-face {
+  font-family: opensans;
+  src: url(https://holywindmill.github.io/diploma/fonts/opensans-regular.woff);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: opensans;
+  src: url(https://holywindmill.github.io/diploma/fonts/opensans-bold.woff);
+  font-weight: 700;
+  font-style: normal;
+}
+@media (min-width: 1920px), (min-width: 961px) and (max-width: 1919px) {
+  .header {
+    background-image: url("https://holywindmill.github.io/diploma/images/football_1920.jpg");
+    padding-top: 110px;
+    padding-bottom: 222px;
+  }
+  .surface_logo {
+    width: 190px;
+    height: 52px;
+  }
+  .header_title {
+    margin-left: 9.2%;
+  }
+  .second_line_title {
+    margin-right: 9.2%;
+  }
+  .header_title {
+    font-size: 90px;
+    line-height: 92px;
+    margin-top: 295px;
+    margin-bottom: 223px;
+  }
+  .download_app {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .download_app_box {
+    font-size: 14px;
+    width: 310px;
+    height: 77px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .download_app_box:nth-child(n+2) {
+    margin-left: 51px;
+  }
+  .download_app_icon {
+    width: 60px;
+    height: 48px;
+    padding: 13px 30px;
+  }
+  .download_app_text {
+    font-size: 14px;
+  }
+}
+@media (min-width: 641px) and (max-width: 960px) {
+  .header {
+    background-image: url("https://holywindmill.github.io/diploma/images/football_1280.jpg");
+  } 
+  .surface_logo {
+    width: px;
+    height: px;
+  }
+  .surface_icon_text {
+    margin-top: px;  
+  }
+  .first_line_title {
+    margin-left: 10%;
+  }
+  .second_line_title {
+    margin-left: 33%;
+  }
+  .header_title {
+    line-height: 92px;
+    margin-top: px;
+  }
+  .download_app {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    margin-top: px; 
+    margin-bottom: px;
+  }
+  .download_app_box {
+    width: px;
+    height: px;
+    margin-bottom: px;
+    border-radius: px;
+  }
+  .download_app_icon {
+    width: px;
+    height: px;
+    padding-left: px;
+    padding-top: px;
+    padding-bottom: px;
+    padding-right: px;
+  }
+  .download_app_text {
+    padding-top: px;
+    font-size: px;
+  }
+  .download_app_item:nth-child(n+2) {
+    margin-left: 51px;
+  }
+}
+@media (max-width: 640px) {
+  .header {
+    background-image: url("https://holywindmill.github.io/diploma/images/football_767.jpg");
+    padding-bottom: 84px;
+  } 
+  .surface_logo {
+    width: 133px;
+    height: 36px;
+  }
+  .surface_icon_text {
+    margin-top: 33px;  
+  }
+  .header_title {
+    font-size: 28px;
+    line-height: 67px;
+    margin-top: 137px;
+    margin-left: 5.25%;
+  }
+  .second_line_title {
+    margin-left: 20%;
+  }
+  .download_app {
+    display: block;
+    font-size: 8px;
+    margin-top: 90px;
+    margin-bottom: 84px;
+  }
+  .download_app_box:last-child {
+    margin-top: 14px;
+  }
+  .download_app_box {
+    width: 100%;
+    height: 35px;
+    margin-left: 6.2%;
+    margin-right: 6.2%;
+  }
+  .download_app_icon {
+    width: 24px;
+    height: 24px;
+    padding-left: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 7px;
+  }
+  .download_app_text {
+    padding-top: 9px;
+    font-size: 8px;
+  }
+  .download_app_store {
+    display: block;
+    transform: translate(10px, -10px);
+  }
+  
+  .athlets_content_box, .players_content_box {
+  display: block;
+  }
+  .section_title {
+    font-size: 50px;
+  }
+  .section_title, .connection_article, .collaboration_article, .growth_article {
+    padding-left: 6.5%;
+    padding-left: 9.4%;
+  }
+}
+
+.header {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+.header::after {
+  content: "";
+  background-color: #000033;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.8;
+}
+.banner {
+  position: relative;
+  z-index: 1;
+}
+.header_title {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: opensans, sans-serif;
+  margin-left: 9.2%;
+  }
+.second_line_title {
+  text-align: right; 
+  display: block;
+  margin-right: 9.2%;
+}
+.surface_logo {
+  margin: auto;
+}
+
+.download_app_box {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: opensans, sans-serif;
+  color: #ffffff;
+  background-color: #5e42b0;
+  border: 1px solid #5e42b0;
+  border-radius: 50px;
+}
+.download_app_store {
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center
+}
+.download_app_box:hover {
+ background-color: #4242b0;
+}
+.download_app_icon {
+  fill: #ffffff;
+}
+.download_app_text {
+  padding-left: 0;
+  list-style-type: none;
+  font-weight: 400;
+  align-self: center;
+}
+.download_app_text_item:last-child {
+  font-weight: 700;
+}
+
+.athlets_content_box, .players_content_box {
+  display: flex;
+  flex-direction: column; 
+  width: 100%; 
+}
+.section_title, .connection_article, .collaboration_article, .growth_article {
+  padding-left: 52%;
+}
+.connection_article, .collaboration_article, .growth_article {
+/*   width: 40%; */
+  margin-right: 9.2%;
+}
+.section_text {
+  color: #000000;
+  font-weight: 400;
+  font-family: opensans, sans-serif;
+  font-size: 20px;
+}
+.section_text:nth-child(3n+3) {
+  color: #ffffff;
+}
+.background_collaboration_box {
+  width: 100%;
+  background-color: #f6f4fa;
+}
+.background_growth_box {
+  width: 100%;
+  background-color: #5e42b0;
+}
+
+.section_title {
+  margin-top: 115px;
+  color: #e7e7e7;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: opensans, sans-serif;
+  font-size: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+} 
+
+.section_header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.number {
+  font-size: 18px;
+  color: #000000;
+  font-weight: 700;
+  font-family: opensans, sans-serif;
+  margin-right: 15px;
+}
+.number::after {
+  content:"";
+  display: block;
+  background-color: #5e42b0;
+  width: 21px;
+  height: 5px;
+  border-radius: 25%;
+  margin-top: 7px;
+  }
+.number::after:nth-child(3n+3) {
+  background-color: #ffffff;
+}
+.section_header {
+  display: flex;
+  align-items: center;
+}
+.section_header_title {
+  color: #e7e7e7;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: opensans, sans-serif;
+  font-size: 36px; 
+}
+.athlets_image, .players_image {
+  position: absolute;
+}
+.athlets, .players {
+  position: relative;
+  display: flex;
+}
+.athlets_image {
+  left: 20%;
+  top: 1.5%;
+}
+.players_image {
+  right: 3%;
+  top: 1.5%;
+}
+.players_content_box {
+  width: 100%;
+}
+.players_section_title, .players_connection, .players_collaboration, .players_growth {
+  width: 40%;
+  padding-right: 52%;
+  padding-left: 9.2%;
+}
+.players_section_title {
+  color: #e7e7e7;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: opensans, sans-serif;
+  font-size: 80px; 
+}
+
+.be_active, .find_contact, .work_it {
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+}
+.image {
+  width: 50%;
+}
+.content_box {
+  width: 50%;
+}
+/* .be_active_img {
+  width: 100%;
+}
+.work_it_img {
+  width: 100%;
+} */
+.be_active_article, .work_it_article {
+  margin-left: 13%;
+  margin-right: 19%;
+}
+.find_contact_article {
+  margin-left: 9.5%;
+  margin-right: 6.5%;
+}
+.box {
+  display: block;
+  background-color: #5e42b0;
+  width: 168px;
+  height: 155px;
+  position: absolute;
+  left: 45.6%;
+  bottom: 50%;
+  display: flex;
+}
+.index {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  margin: auto;
+}
+.index::after {
+  content:"";
+  display: block;
+  background-color: #8f7bc8;
+  width: 21px;
+  height: 5px;
+  border-radius: 25%;
+  margin-top: 7px;
+  z-index: ;
+}
+.aside_title {
+  color: #e7e7e7;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: opensans, sans-serif;
+  font-size: 80px;
+  margin-top: 260px;
+}
+.aside_text {
+  color: #000000;
+  font-weight: 400;
+  font-family: opensans, sans-serif;
+  font-size: 24px;
+}
+
+.image, .content_box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer {
+  background-image: url("https://holywindmill.github.io/diploma/images/game_1920.jpg");
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 229px;
+  padding-bottom: 52px;
+}
+.footer::after {
+  content: "";
+  background-color: #0a0e34;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.9;
+}
+.footer_background {
+  position: relative;
+  z-index: 1;
+}
+.download_cta {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  width: 865px;
+}
+.footer_surface_logo {
+  width: 160px;
+  fill: #ffffff;
+  background-color: #6e4fca;
+  border-radius: 40px;
+  margin-right: 12px;
+  box-sizing: border-box;
+  padding: 25px 16px;
+}
+.surface_cta {
+  padding-left: 0;
+  list-style-type: none;
+  font-family: opensans, sans-serif;
+  font-weight: 400;
+  align-self: center;
+}
+.surface_cta_text {
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #f6f4fa;
+  
+}
+.surface_cta_text:first-child {
+  font-size: 80px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.download_app_footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 151px;
+    margin-bottom: 262px;
+   
+  }
