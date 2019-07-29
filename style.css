@@ -27,15 +27,13 @@ body {
   }
   .header_title {
     margin-left: 9.2%;
-  }
-  .second_line_title {
-    margin-right: 9.2%;
-  }
-  .header_title {
     font-size: 90px;
     line-height: 92px;
     margin-top: 295px;
     margin-bottom: 223px;
+  }
+  .second_line_title {
+    margin-right: 9.2%;
   }
   .download_app {
     display: flex;
@@ -61,6 +59,131 @@ body {
   }
   .download_app_text {
     font-size: 14px;
+  }
+  .section_title, .connection_article, .collaboration_article, .growth_article {
+    padding-left: 52%;
+  }
+  .connection_article, .collaboration_article, .growth_article {
+    margin-right: 9.2%;
+  }
+  .athlets_content_box, .players_content_box {
+    display: flex;
+    flex-direction: column; 
+    width: 100%; 
+  }
+  .section_text {
+    font-size: 20px;
+  }
+  .section_title {
+    margin-top: 115px;
+    font-size: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  } 
+  .section_header {
+    flex-wrap: wrap;
+  }
+  .number {
+    font-size: 18px;
+  }
+  .number::after {
+    margin-top: 7px;
+  }
+  .section_header_title {
+    font-size: 36px; 
+  }
+  .athlets, .players {
+    display: flex;
+  }
+  .athlets_image, .players_image {
+    position: absolute;
+  }
+  .athlets_image {
+    left: 0;
+    top: 1.5%;
+  }
+  .players_image {
+    right: 0;
+    top: 1.5%;
+  }
+  .players_section_title, .players_connection, .players_collaboration, .players_growth {
+    width: 40%;
+    padding-right: 52%;
+    padding-left: 9.2%;
+  }
+  .players_section_title {
+    font-size: 80px; 
+  }
+ 
+  .be_active, .find_contact, .work_it {
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+  }
+  .image {
+    flex-basis: 50%;
+  }
+  .content_box {
+/*     width: 50%; */
+  }
+  .image:nth-child(2n+2) {
+    order: 1;
+  }
+  .be_active_article, .work_it_article {
+    margin-left: 13%;
+    margin-right: 19%;
+  }
+  .find_contact_article {
+    margin-left: 9.5%;
+    margin-right: 6.5%;
+  }
+  .box {
+    width: 168px;
+    height: 155px;
+    left: 50%;
+    bottom: 50%;
+  }
+  .index {
+    font-size: 24px;
+  }
+  .index::after {
+    width: 21px;
+    height: 5px;
+    margin-top: 7px;
+  }
+  .aside_title {
+    font-size: 80px;
+    margin-top: 260px;
+  }
+  .aside_text {
+    font-size: 24px;
+  }
+  .image, .content_box {
+    display: flex;
+    flex-wrap: wrap;
+  } 
+  
+  .footer {
+    background-image: url("https://holywindmill.github.io/diploma/images/game_1920.jpg");
+    padding-top: 229px;
+    padding-bottom: 52px;
+  }
+  .download_cta {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    width: 865px;
+  }
+  .surface_cta_text {
+    font-size: 30px;
+  }
+  .surface_cta_text:first-child {
+    font-size: 80px;
+ }
+  .footer_surface_logo {
+    width: 160px;
+    padding: 25px 16px;
   }
 }
 @media (min-width: 641px) and (max-width: 960px) {
@@ -116,7 +239,7 @@ body {
 @media (max-width: 640px) {
   .header {
     background-image: url("https://holywindmill.github.io/diploma/images/football_767.jpg");
-    padding-bottom: 84px;
+    padding: 10.3% 6.3% 26.3%;
   } 
   .surface_logo {
     width: 133px;
@@ -127,18 +250,16 @@ body {
   }
   .header_title {
     font-size: 28px;
-    line-height: 67px;
+    line-height: 40px;
     margin-top: 137px;
-    margin-left: 5.25%;
   }
   .second_line_title {
-    margin-left: 20%;
+/*     text-align: right; */
   }
   .download_app {
     display: block;
     font-size: 8px;
     margin-top: 90px;
-    margin-bottom: 84px;
   }
   .download_app_box:last-child {
     margin-top: 14px;
@@ -146,37 +267,119 @@ body {
   .download_app_box {
     width: 100%;
     height: 35px;
-    margin-left: 6.2%;
-    margin-right: 6.2%;
+    border-radius: 50px;
   }
   .download_app_icon {
     width: 24px;
     height: 24px;
-    padding-left: 80px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 7px;
   }
   .download_app_text {
-    padding-top: 9px;
     font-size: 8px;
   }
   .download_app_store {
     display: block;
-    transform: translate(10px, -10px);
+    justify-content: center;
   }
   
-  .athlets_content_box, .players_content_box {
-  display: block;
+  
+  .background_box, .background_collaboration_box, .background_growth_box {
+    display: flex;
   }
   .section_title {
     font-size: 50px;
   }
-  .section_title, .connection_article, .collaboration_article, .growth_article {
+  .number::after {
+    margin-top: 4px;
+  }
+  .section_header_title {
+    font-size: 23px;
+  }
+  .section_title, .connection_article, .collaboration_article, .growth_article, .players_section_title, .players_connection, .players_collaboration, .players_growth {
     padding-left: 6.5%;
-    padding-left: 9.4%;
+    padding-right: 7.8%;
+  } 
+  .section_text {
+    font-size: 20px;
+  }
+  .athlets_image {
+    width: 60%;
+    margin: auto;
+  }
+  .players_image {
+    width: 94%;
+    margin: auto;
+ 
+  }
+  .players_section_title {
+    font-size: 50px;
+  }
+  
+  
+  .be_active, .find_contact, .work_it {
+    display: block;
+    position: relative;
+  }
+  .image {
+    width: 100%;
+  }
+  .content_box {
+    padding-left: 6.5%;
+    padding-right: 7.8%;
+  }
+  .box {
+    width: 70px;
+    height: 70px;
+    left: 6.5%;
+    bottom: 20%;
+  }
+  .index {
+    font-size: 14px;
+  }
+  .index::after {
+    width: 14px;
+    height: 4px;
+  }
+  .aside_title {
+    font-size: 28px;
+    margin-top: 34px; 
+  }
+  .aside_text {
+    font-size: 16px;
+    padding-bottom: 50px;
+  }
+  
+  
+  .footer {
+    background-image: url("https://holywindmill.github.io/diploma/images/game_767.jpg");
+    padding: 31% 6.3% 3.1%;
+  }
+  .download_cta {
+    display: block;
+  }
+  .surface_cta {
+    text-align: center;
+  }
+  .surface_cta_text {
+    font-size: 14px;  
+  }
+  .surface_cta_text:first-child {
+    font-size: 32px;
+  }
+  .footer_surface_logo {
+    margin: auto;
+    width: 72px;
+    padding: 12px;
   }
 }
+
+
+
+
+
+
 
 .header {
   background-repeat: no-repeat;
@@ -213,7 +416,6 @@ body {
 .surface_logo {
   margin: auto;
 }
-
 .download_app_box {
   text-transform: uppercase;
   font-weight: 400;
@@ -246,23 +448,10 @@ body {
   font-weight: 700;
 }
 
-.athlets_content_box, .players_content_box {
-  display: flex;
-  flex-direction: column; 
-  width: 100%; 
-}
-.section_title, .connection_article, .collaboration_article, .growth_article {
-  padding-left: 52%;
-}
-.connection_article, .collaboration_article, .growth_article {
-/*   width: 40%; */
-  margin-right: 9.2%;
-}
 .section_text {
   color: #000000;
   font-weight: 400;
   font-family: opensans, sans-serif;
-  font-size: 20px;
 }
 .section_text:nth-child(3n+3) {
   color: #ffffff;
@@ -275,26 +464,17 @@ body {
   width: 100%;
   background-color: #5e42b0;
 }
-
 .section_title {
-  margin-top: 115px;
   color: #e7e7e7;
   text-transform: uppercase;
   font-weight: 700;
   font-family: opensans, sans-serif;
-  font-size: 80px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
 } 
-
 .section_header {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
 }
 .number {
-  font-size: 18px;
   color: #000000;
   font-weight: 700;
   font-family: opensans, sans-serif;
@@ -307,91 +487,37 @@ body {
   width: 21px;
   height: 5px;
   border-radius: 25%;
-  margin-top: 7px;
   }
 .number::after:nth-child(3n+3) {
   background-color: #ffffff;
-}
-.section_header {
-  display: flex;
-  align-items: center;
 }
 .section_header_title {
   color: #e7e7e7;
   text-transform: uppercase;
   font-weight: 700;
   font-family: opensans, sans-serif;
-  font-size: 36px; 
-}
-.athlets_image, .players_image {
-  position: absolute;
 }
 .athlets, .players {
   position: relative;
-  display: flex;
-}
-.athlets_image {
-  left: 20%;
-  top: 1.5%;
-}
-.players_image {
-  right: 3%;
-  top: 1.5%;
 }
 .players_content_box {
   width: 100%;
-}
-.players_section_title, .players_connection, .players_collaboration, .players_growth {
-  width: 40%;
-  padding-right: 52%;
-  padding-left: 9.2%;
 }
 .players_section_title {
   color: #e7e7e7;
   text-transform: uppercase;
   font-weight: 700;
   font-family: opensans, sans-serif;
-  font-size: 80px; 
 }
 
-.be_active, .find_contact, .work_it {
-  display: flex;
-  flex-wrap: nowrap;
-  position: relative;
-}
-.image {
-  width: 50%;
-}
-.content_box {
-  width: 50%;
-}
-/* .be_active_img {
-  width: 100%;
-}
-.work_it_img {
-  width: 100%;
-} */
-.be_active_article, .work_it_article {
-  margin-left: 13%;
-  margin-right: 19%;
-}
-.find_contact_article {
-  margin-left: 9.5%;
-  margin-right: 6.5%;
-}
+
 .box {
-  display: block;
   background-color: #5e42b0;
-  width: 168px;
-  height: 155px;
   position: absolute;
-  left: 45.6%;
-  bottom: 50%;
   display: flex;
 }
 .index {
   color: #ffffff;
-  font-size: 24px;
   font-weight: 700;
   margin: auto;
 }
@@ -399,39 +525,26 @@ body {
   content:"";
   display: block;
   background-color: #8f7bc8;
-  width: 21px;
-  height: 5px;
   border-radius: 25%;
-  margin-top: 7px;
-  z-index: ;
 }
 .aside_title {
   color: #e7e7e7;
   text-transform: uppercase;
   font-weight: 700;
   font-family: opensans, sans-serif;
-  font-size: 80px;
-  margin-top: 260px;
 }
 .aside_text {
   color: #000000;
   font-weight: 400;
   font-family: opensans, sans-serif;
-  font-size: 24px;
 }
 
-.image, .content_box {
-  display: flex;
-  flex-wrap: wrap;
-}
+
 .footer {
-  background-image: url("https://holywindmill.github.io/diploma/images/game_1920.jpg");
   position: relative;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding-top: 229px;
-  padding-bottom: 52px;
 }
 .footer::after {
   content: "";
@@ -447,36 +560,24 @@ body {
   position: relative;
   z-index: 1;
 }
-.download_cta {
-  margin: auto;
-  display: flex;
-  align-items: center;
-  width: 865px;
-}
 .footer_surface_logo {
-  width: 160px;
   fill: #ffffff;
   background-color: #6e4fca;
-  border-radius: 40px;
-  margin-right: 12px;
+  border-radius: 25%;
   box-sizing: border-box;
-  padding: 25px 16px;
 }
 .surface_cta {
   padding-left: 0;
   list-style-type: none;
   font-family: opensans, sans-serif;
   font-weight: 400;
-  align-self: center;
 }
 .surface_cta_text {
   text-transform: uppercase;
-  font-size: 30px;
   color: #f6f4fa;
   
 }
 .surface_cta_text:first-child {
-  font-size: 80px;
   color: #ffffff;
   font-weight: 700;
 }
