@@ -100,8 +100,13 @@ body {
   .athlets, .players {
     display: flex;
   }
-  .footballer_image, .basketballer_image {
+  .footballer_image {
     position: absolute;
+    max-width: 28.85vw;
+  }
+  .basketballer_image {
+    position: absolute;
+    max-width: 51.30vw;
   }
   .footballer_image {
     left: 20.4%;
@@ -109,10 +114,10 @@ body {
   }
   .basketballer_image {
     right: 6.5%;
-    top: 1.5%;
+    top: 1.35%;
   }
   .players_section_title, .players_connection_article, .players_collaboration_article, .players_growth_article {
-    width: 40%;
+    max-width: 750px;
     padding-right: 52%;
     padding-left: 9.2%;
   }
@@ -133,15 +138,25 @@ body {
     flex-wrap: nowrap;
     position: relative;
   }
+  .be_active_content {
+/*     display: flex;
+    align-items: center;
+    justify-content: center; */
+  }
+  .be_active_article, .find_contact_article, .work_it_article {
+/*     margin: auto;
+    vertical-align: top; */
+/*     align-self: center; */
+  }
   .be_active_section_title, .find_contact_section_title, .work_it_section_title {
     font-size: 80px;
-    margin-left: 13.33%;
-    padding: 0;
+/*     margin-left: 13.33%; */
+/*     padding: 0; */
 /*     margin-top: calc(260px - 0.83em); */
   }
   .be_active_section_text, .find_contact_section_text, .work_it_section_text {
     font-size: 24px;
-    padding-left: 13.33%;
+/*     padding-left: 13.33%; */
   } 
   .image, .find_contact_content, .be_active_content, .work_it_content {
     display: flex;
@@ -155,8 +170,8 @@ body {
     margin-right: 6.5%;
   } */
   .box {
-    width: 8.7%;
-    height: 155px;
+    width: 8.75vw;
+    height: 8.07vw;
     bottom: 50%;
     left: calc(50% - 4.35%);
 /*     flex: 0 auto; */
@@ -295,7 +310,7 @@ body {
   .background_box, .background_collaboration_box, .background_growth_box {
     display: flex;
   }
-  .section_title {
+  .athlets_section_title {
     font-size: 50px;
     padding-bottom: 281px;
   }
@@ -332,9 +347,9 @@ body {
     position: relative;
   }
   .image {
-    width: 100%;
+    width: 100vw;
   }
-  .content_box {
+  .be_active_content {
     padding-left: 6.5%;
     padding-right: 7.8%;
   }
@@ -351,11 +366,11 @@ body {
     width: 14px;
     height: 4px;
   }
-  .aside_title {
+  .be_active_section_title {
     font-size: 28px;
     margin-top: 34px; 
   }
-  .aside_text {
+  .be_active_section_text {
     font-size: 16px;
     padding-bottom: 50px;
   }
