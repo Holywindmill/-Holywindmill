@@ -113,7 +113,7 @@ body {
     top: 1.6%;
   }
   .basketballer_image {
-    right: 6.5%;
+    right: 5.5%;
     top: 1.35%;
   }
   .players_section_title, .players_connection_article, .players_collaboration_article, .players_growth_article {
@@ -121,6 +121,9 @@ body {
     padding-right: 52%;
     padding-left: 9.2%;
   }
+/*   .section_text{
+    margin: 54vw;
+  } */
   .players_connection_article, .players_collaboration_article, .players_growth_article {
     padding-top: 2.7%;
     padding-bottom: 2.7%;
@@ -144,8 +147,9 @@ body {
     justify-content: center; */
   }
   .be_active_article, .find_contact_article, .work_it_article {
-/*     margin: auto;
-    vertical-align: top; */
+    padding-left: 6.56vw; 
+/*     margin: auto; */
+/*     vertical-align: top;  */
 /*     align-self: center; */
   }
   .be_active_section_title, .find_contact_section_title, .work_it_section_title {
@@ -310,7 +314,7 @@ body {
   .background_box, .background_collaboration_box, .background_growth_box {
     display: flex;
   }
-  .athlets_section_title {
+  .section_title {
     font-size: 50px;
     padding-bottom: 281px;
   }
@@ -366,11 +370,11 @@ body {
     width: 14px;
     height: 4px;
   }
-  .be_active_section_title {
+  .aside_title {
     font-size: 28px;
     margin-top: 34px; 
   }
-  .be_active_section_text {
+  .aside_text {
     font-size: 16px;
     padding-bottom: 50px;
   }
@@ -522,6 +526,9 @@ body {
 }
 .background_growth_box .number {
   color: #9173e6;
+}
+.athlets_content_box .background_growth_box .number {
+  color: #0a0e34;
 }
 .background_growth_box .section_text {
   color: #ffffff;
