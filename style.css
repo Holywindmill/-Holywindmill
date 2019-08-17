@@ -199,17 +199,17 @@ body {
     margin: auto;
     display: flex;
     align-items: center;
-    width: 865px;
+    width: 45.05vw;
   }
   .surface_cta_text {
-    font-size: 30px;
+    font-size: 1.56vw;
   }
-  .surface_cta_text:first-child {
-    font-size: 80px;
+  .surface_cta_download_app {
+    font-size: 4.16vw;
  }
   .footer_surface_logo {
-    width: 160px;
-    padding: 25px 16px;
+    width: 8.33vw;
+    padding: 1.3vw 0.83vw;
   }
 }
 @media (min-width: 641px) and (max-width: 960px) {
@@ -615,19 +615,25 @@ body {
   box-sizing: border-box;
 }
 .surface_cta {
-  padding-left: 0;
+  padding-left: 2vw;
   list-style-type: none;
   font-family: opensans, sans-serif;
   font-weight: 400;
 }
 .surface_cta_text {
   text-transform: uppercase;
-  color: #f6f4fa;
+  color: #a496ca;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  
   
 }
-.surface_cta_text:first-child {
+.surface_cta_download_app {
+  text-transform: uppercase;
   color: #ffffff;
   font-weight: 700;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 .download_app_footer {
     display: flex;
