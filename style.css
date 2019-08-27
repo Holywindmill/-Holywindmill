@@ -36,30 +36,30 @@ body {
     margin-right: 9.2%;
   }
   .download_app {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
   .download_app_box {
-    font-size: 14px;
-    width: 310px;
-    height: 77px;
-    border-radius: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .download_app_box:nth-child(n+2) {
-    margin-left: 51px;
-  }
-  .download_app_icon {
-    width: 60px;
-    height: 48px;
-    padding: 13px 30px;
-  }
-  .download_app_text {
-    font-size: 14px;
-  }
+  font-size: 14px;
+  width: 310px;
+  height: 77px;
+  display: inherit; 
+  align-items: center;
+}
+.download_app_box:nth-child(2) {
+  margin-left: 3vw;
+}
+
+.download_app_icon {
+  width: 60px;
+  height: 48px;
+  padding: 13px 30px;
+}
+  .download_app_text_item {
+  display: flex;
+  flex-direction: column;
+}
   .athlets_section_title, .athlets_connection_article, .athlets_collaboration_article,     .athlets_growth_article {
     padding-left: 52%;
   }
@@ -121,9 +121,6 @@ body {
     padding-right: 52%;
     padding-left: 9.2%;
   }
-/*   .section_text{
-    margin: 54vw;
-  } */
   .players_connection_article, .players_collaboration_article, .players_growth_article {
     padding-top: 2.7%;
     padding-bottom: 2.7%;
@@ -148,19 +145,16 @@ body {
   }
   .be_active_article, .find_contact_article, .work_it_article {
     padding-left: 6.56vw; 
-/*     margin: auto; */
-/*     vertical-align: top;  */
-/*     align-self: center; */
+    padding-right: 11.09vw;
+    padding-top: 11vw;
+    padding-bottom: 12.5vw;
   }
   .be_active_section_title, .find_contact_section_title, .work_it_section_title {
-    font-size: 80px;
-/*     margin-left: 13.33%; */
-/*     padding: 0; */
-/*     margin-top: calc(260px - 0.83em); */
+    font-size: 4.166vw;
+    margin-block-start: 0;
   }
   .be_active_section_text, .find_contact_section_text, .work_it_section_text {
     font-size: 24px;
-/*     padding-left: 13.33%; */
   } 
   .image, .find_contact_content, .be_active_content, .work_it_content {
     display: flex;
@@ -169,10 +163,7 @@ body {
   .find_contact_picture {
     order: 1;
   }
-/*   .find_contact_article {
-    margin-left: 9.5%;
-    margin-right: 6.5%;
-  } */
+
   .box {
     width: 8.75vw;
     height: 8.07vw;
@@ -287,29 +278,31 @@ body {
     font-size: 8px;
     margin-top: 90px;
   }
-  .download_app_box:last-child {
-    margin-top: 14px;
-  }
   .download_app_box {
-    width: 100%;
-    height: 35px;
-    border-radius: 50px;
+    font-size: 2.5vw;
+    max-width: 100vw;
+    height: 11vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
+  .download_app_box:nth-child(2) {
+     margin-top: 14px;
+  }
+
   .download_app_icon {
-    width: 24px;
-    height: 24px;
+    width: 7.5vw;
+    height: 7.5vw;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 7px;
   }
-  .download_app_text {
-    font-size: 8px;
-  }
-  .download_app_store {
-    display: block;
-    justify-content: center;
-  }
-  
+
+.download_app_text_item {
+  display: flex;
+  flex-direction: column;
+}
   
   .background_box, .background_collaboration_box, .background_growth_box {
     display: flex;
@@ -444,21 +437,16 @@ body {
 .surface_logo {
   margin: auto;
 }
+
 .download_app_box {
   text-transform: uppercase;
   font-weight: 400;
   font-family: opensans, sans-serif;
   color: #ffffff;
   background-color: #5e42b0;
-  border: 1px solid #5e42b0;
   border-radius: 50px;
-}
-.download_app_store {
   text-decoration: none;
   color: #ffffff;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center
 }
 .download_app_box:hover {
  background-color: #4242b0;
@@ -466,16 +454,6 @@ body {
 .download_app_icon {
   fill: #ffffff;
 }
-.download_app_text {
-  padding-left: 0;
-  list-style-type: none;
-  font-weight: 400;
-  align-self: center;
-}
-.download_app_text_item:last-child {
-  font-weight: 700;
-}
-
 .section_text {
   color: #000000;
   font-weight: 400;
