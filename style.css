@@ -151,7 +151,12 @@ body {
   .image {
     width: 100%;
   }
- .be_active_picture, .be_active_content, .find_contact_picture, .find_contact_content, .work_it_picture, .work_it_content {
+  .be_active_picture,
+  .be_active_content,
+  .find_contact_picture,
+  .find_contact_content,
+  .work_it_picture,
+  .work_it_content {
     width: 50%;
   }
   .find_contact_picture {
@@ -244,10 +249,6 @@ body {
   .header_title {
     font-size: 64px;
     margin-top: 28.23vw;
-    margin-left: ;
-  }
-  .second_line_title {
-    /*     text-align: right; */
   }
   .download_app {
     display: flex;
@@ -283,15 +284,10 @@ body {
     padding-right: 7.49vw;
     margin-top: 6.55vw;
   }
-  .athlets_connection_article,
-  .athlets_collaboration_article,
-  .athlets_growth_article {
-  }
   .athlets_content_box,
   .players_content_box {
     display: flex;
     flex-direction: column;
-    /*     width: 100%;  */
   }
   .section_text {
     font-size: 16px;
@@ -317,8 +313,7 @@ body {
     font-size: 32px;
     margin: 0;
   }
-  .athlets,
-  .players {
+  .athlets, .players {
     display: flex;
   }
   .footballer_image {
@@ -329,10 +324,8 @@ body {
   }
   .basketballer_image {
     position: absolute;
-  }
-  .basketballer_image {
-    right: 5.5%;
-    top: 1.35%;
+    right: 0;
+    top: 17vw;
   }
   .players_section_title,
   .players_connection_article,
@@ -364,39 +357,42 @@ body {
   .be_active_article,
   .find_contact_article,
   .work_it_article {
-    padding-left: 6.5%;
-    padding-right: 7.8%;
+    padding-left: 5%;
+    padding-right: 11%;
   }
   .box {
-    width: 22vw;
-    height: 22vw;
-    left: 6.5%;
-    bottom: 32%;
+    width: 18vw;
+    height: 18vw;
+    left: 5%;
+    bottom: 38%;
   }
   .index {
-    font-size: 14px;
+    font-size: 24px;
   }
   .index::after {
-    width: 14px;
-    height: 4px;
+    width: 25px;
+    height: 5px;
   }
   .be_active_section_title,
   .find_contact_section_title,
   .work_it_section_title {
-    font-size: 28px;
-    /*     margin-top: 34px;  */
+    font-size: 80px;
+    margin-block-end: 0;
+    width: 91.4vw;
   }
   .be_active_section_text,
   .find_contact_section_text,
   .work_it_section_text {
-    font-size: 16px;
-    font-weight: 700;
-    padding-bottom: 23vw;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 97px;
+    margin-block-start: 0;
+    margin-block-end: 0;
   }
 
   .footer {
     background-image: url("https://holywindmill.github.io/diploma/images/game_767.jpg");
-    padding: 31% 6.3% 3.1%;
+    padding: 19.7% 5.2% 3.7%;
   }
   .download_cta {
     display: block;
@@ -405,26 +401,22 @@ body {
     text-align: center;
   }
   .surface_cta_download_app {
-    font-size: 32px;
+    font-size: 12.5vw;
   }
   .surface_cta_text {
-    font-size: 14px;
-  }
-  .surface_cta_text:first-child {
-    font-size: 32px;
+    font-size: 5.6vw;
   }
   .download_app_footer {
-    display: block;
-    flex-wrap: wrap;
+    display: flex;
     justify-content: center;
-    margin-top: 24vw;
-    margin-bottom: 25vw;
+    margin-top: 44.8vw;
+    margin-bottom: 8.6vw;
   }
   .footer_surface_logo {
     margin: auto;
-    width: 72px;
-    padding: 12px;
-    margin-bottom: 17.18vw;
+    width: 130px;
+    padding: 15px;
+    margin-bottom: 12.8vw;
   }
 }
 @media (max-width: 640px) {
@@ -475,10 +467,6 @@ body {
     display: flex;
     flex-direction: column;
   }
-
-  /*   .background_box, .background_collaboration_box, .background_growth_box {
-    display: flex;
-  } */
   .section_title {
     font-size: 15.6vw;
     padding-bottom: 100vw;
@@ -560,7 +548,6 @@ body {
   .find_contact_section_title,
   .work_it_section_title {
     font-size: 28px;
-    /*     margin-top: 34px;  */
   }
   .be_active_section_text,
   .find_contact_section_text,
@@ -646,7 +633,6 @@ body {
   background-color: #5e42b0;
   border-radius: 50px;
   text-decoration: none;
-  color: #ffffff;
 }
 .download_app_box:hover {
   background-color: #4242b0;
@@ -738,6 +724,7 @@ body {
 .index {
   color: #ffffff;
   font-weight: 700;
+  font-family: opensans, sans-serif;
   margin: auto;
 }
 .index::after {
