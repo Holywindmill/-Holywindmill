@@ -90,6 +90,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    margin-bottom: 0;
   }
   .section_header {
     flex-wrap: wrap;
@@ -138,7 +139,6 @@ body {
   .players_section_title {
     font-size: 80px;
     margin-bottom: 0;
-    margin-top: ;
   }
 
   .be_active,
@@ -214,6 +214,9 @@ body {
     display: flex;
     align-items: center;
     width: 45.05vw;
+  }
+  .surface_cta {
+    padding-left: 2vw;
   }
   .surface_cta_text {
     font-size: 1.56vw;
@@ -349,6 +352,10 @@ body {
   .find_contact,
   .work_it {
     display: block;
+  }
+  .be_active_picture,
+  .find_contact_picture,
+  .work_it_picture {
     position: relative;
   }
   .image {
@@ -364,7 +371,7 @@ body {
     width: 18vw;
     height: 18vw;
     left: 5%;
-    bottom: 38%;
+    bottom: -5%;
   }
   .index {
     font-size: 24px;
@@ -392,16 +399,17 @@ body {
 
   .footer {
     background-image: url("https://holywindmill.github.io/diploma/images/game_767.jpg");
-    padding: 19.7% 5.2% 3.7%;
+    padding: 19.7% 0% 3.7%;
   }
   .download_cta {
     display: block;
   }
   .surface_cta {
     text-align: center;
+    padding-left: 0;
   }
   .surface_cta_download_app {
-    font-size: 12.5vw;
+    font-size: 80px;
   }
   .surface_cta_text {
     font-size: 5.6vw;
@@ -493,12 +501,12 @@ body {
     padding-left: 10.3vw;
     padding-right: 10.3vw;
     padding-top: 6.25vw;
-    padding-bottom: 100vw;
+    margin-bottom: 100vw;
     margin-block-start: 0;
   }
   .section_text {
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 500;
   }
   .footballer_image {
     width: 60vw;
@@ -520,6 +528,10 @@ body {
   .find_contact,
   .work_it {
     display: block;
+  }
+  .be_active_picture,
+  .find_contact_picture,
+  .work_it_picture {
     position: relative;
   }
   .image {
@@ -535,7 +547,7 @@ body {
     width: 22vw;
     height: 22vw;
     left: 6.5%;
-    bottom: 32%;
+    bottom: -5%;
   }
   .index {
     font-size: 14px;
@@ -663,7 +675,6 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   font-family: opensans, sans-serif;
-  margin-bottom: 0;
 }
 .section_header {
   display: flex;
@@ -747,7 +758,6 @@ body {
   color: #000000;
   font-family: opensans, sans-serif;
 }
-
 .footer {
   position: relative;
   background-repeat: no-repeat;
@@ -775,7 +785,6 @@ body {
   box-sizing: border-box;
 }
 .surface_cta {
-  padding-left: 2vw;
   list-style-type: none;
   font-family: opensans, sans-serif;
   font-weight: 400;
