@@ -112,13 +112,13 @@ body {
   .footballer_image {
     position: absolute;
     max-width: 77.54vw;
-    left: 20.4%;
+    right: 50%;
     top: 1.6%;
   }
   .basketballer_image {
     position: absolute;
     max-width: 107.64vw;
-    right: 5.5%;
+    left: 50%;
     top: 1.35%;
   }
   .players_section_title,
