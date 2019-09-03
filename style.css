@@ -239,10 +239,10 @@ body {
 @media (min-width: 641px) and (max-width: 960px) {
   .header {
     background-image: url("https://holywindmill.github.io/diploma/images/football_1280.jpg");
-    padding-bottom: 14.2vw;
-    padding-left: 9.05vw;
-    padding-right: 9.05vw;
-    padding-top: 6.24vw;
+    padding-bottom: 11.85vw;
+    padding-left: 7.55vw;
+    padding-right: 7.55vw;
+    padding-top: 5.2vw;
   }
   .surface_logo {
     width: 205px;
@@ -251,22 +251,22 @@ body {
 
   .header_title {
     font-size: 64px;
-    margin-top: 28.23vw;
+    margin-top: 23.56vw;
   }
   .download_app {
     display: flex;
     justify-content: center;
-    margin-top: 48.67vw;
+    margin-top: 40.6vw;
   }
   .download_app_box {
     font-size: 14px;
-    width: 311px;
-    height: 77px;
+    width: 40.5vw;
+    height: 10vw;
     display: inherit;
     align-items: center;
   }
   .download_app_box:nth-child(2) {
-    margin-left: 30px;
+    margin-left: 3.9vw;
   }
 
   .download_app_icon {
@@ -283,9 +283,10 @@ body {
   .athlets_connection_article,
   .athlets_collaboration_article,
   .athlets_growth_article {
-    padding-left: 45.55vw;
-    padding-right: 7.49vw;
+    padding-left: 38vw;
+    padding-right: 6.25vw;
     margin-top: 6.55vw;
+    margin-block-end: 0;
   }
   .athlets_content_box,
   .players_content_box {
@@ -295,7 +296,7 @@ body {
   .section_text {
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 5.62vw;
+    margin-bottom: 4.6vw;
   }
   .athlets_section_title {
     font-size: 80px;
@@ -322,25 +323,25 @@ body {
   .footballer_image {
     position: absolute;
     top: 15vw;
-    max-width: 77.54vw;
+    max-width: 64.7vw;
     transform: translate(-162px);
   }
   .basketballer_image {
     position: absolute;
     right: 0;
-    top: 17vw;
+    top: 7vw;
   }
   .players_section_title,
   .players_connection_article,
   .players_collaboration_article,
   .players_growth_article {
     padding-right: 48.2vw;
-    padding-left: 5vw;
+    padding-left: 4vw;
   }
   .players_connection_article,
   .players_collaboration_article,
   .players_growth_article {
-    margin-top: 6.55vw;
+    margin-top: 5.73vw;
   }
   .players_section_title {
     font-size: 80px;
@@ -412,25 +413,25 @@ body {
     font-size: 80px;
   }
   .surface_cta_text {
-    font-size: 5.6vw;
+    font-size: 28px;
   }
   .download_app_footer {
     display: flex;
     justify-content: center;
-    margin-top: 44.8vw;
-    margin-bottom: 8.6vw;
+    margin-top: 37.4vw;
+    margin-bottom: 7.2vw;
   }
   .footer_surface_logo {
     margin: auto;
-    width: 130px;
+    width: 17vw;
     padding: 15px;
-    margin-bottom: 12.8vw;
+    margin-bottom: 10.7vw;
   }
 }
 @media (max-width: 640px) {
   .header {
     background-image: url("https://holywindmill.github.io/diploma/images/football_767.jpg");
-    padding: 10.3% 6.3% 26.3%;
+    padding: 0 6.25vw 26.25vw;
   }
   .surface_logo {
     width: 133px;
@@ -485,13 +486,16 @@ body {
   .section_header_title {
     font-size: 7.19vw;
   }
+  .background_box {
+    background-color: #fafafa;
+  }
   .athlets_connection_article,
   .athlets_collaboration_article,
   .athlets_growth_article,
   .players_connection_article,
   .players_collaboration_article,
   .players_growth_article {
-    padding: 0 10.3vw 15.6vw;
+    padding: 10vw 6.6vw;
     display: flex;
     flex-wrap: wrap;
   }
@@ -501,7 +505,7 @@ body {
     padding-left: 10.3vw;
     padding-right: 10.3vw;
     padding-top: 6.25vw;
-    margin-bottom: 100vw;
+    margin-bottom: 70vw;
     margin-block-start: 0;
   }
   .section_text {
@@ -512,7 +516,7 @@ body {
     width: 60vw;
     position: absolute;
     left: 22vw;
-    top: 25.3vw;
+    top: 25vw;
   }
   .basketballer_image {
     width: 94%;
@@ -547,7 +551,7 @@ body {
     width: 22vw;
     height: 22vw;
     left: 6.5%;
-    bottom: -5%;
+    bottom: -3.75%;
   }
   .index {
     font-size: 14px;
